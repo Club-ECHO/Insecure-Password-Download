@@ -23,7 +23,7 @@ fn index() -> Html<&'static str> {
             <title>Password Protected Download</title>
         </head>
         <body style='background-color: #090909;'>
-            <a href='https://github.com/you'><img decoding='async' width='149' height='149' src='https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149' class='attachment-full size-full' alt='Fork me on GitHub' loading='lazy' data-recalc-dims='1' style='position: fixed;right:0;top:0;'></a>
+            <a href='https://github.com/Club-ECHO/Insecure-Password-Download'><img decoding='async' width='149' height='149' src='https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149' class='attachment-full size-full' alt='Fork me on GitHub' loading='lazy' data-recalc-dims='1' style='position: fixed;right:0;top:0;'></a>
             <form action='' method='post' style='display:flex;flex-direction:column;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);gap:10px;'>
                 <input type='password' id='password' name='password' required style='width:250px;height:32px;border:1px solid limegreen;border-radius:5px;padding-inline:10px;background:transparent;color:limegreen' placeholder='password123'>
                 <button type='submit' style='height:48px;width:250px;border:1px solid limegreen;border-radius:5px;background:transparent;color:limegreen;'>Download</button>
